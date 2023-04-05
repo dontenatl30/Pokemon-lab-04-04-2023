@@ -1,0 +1,28 @@
+    div {
+        background-color: red;
+    }      
+      
+      .menu {
+        list-style-type: none; 
+        display: flex;
+        text-align: left;
+        justify-content: left;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 10vh repeat(, 1fr);
+        /* grid-row-start: 3;
+        grid-row-end: 5; */
+        gap: 1rem;
+    }
+
+    .bulbasaur {
+        grid-row; 
+    }
+
+    .greninja {
+        grid-column: ;
+    }
+
